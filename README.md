@@ -349,3 +349,11 @@ Rows processed: 422,385
 ### Data Quality Results
 
 The final pipeline run recorded 867 data quality issues across
+
+## API Documentation
+
+The project exposes seven read-only REST API endpoints for marketplace seller performance analytics.
+
+The interactive API documentation is available through FastAPI Swagger UI.
+
+![Marketplace Seller Performance API Documentation](screenshots/api_docs.png)
