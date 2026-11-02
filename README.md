@@ -2,19 +2,6 @@
 
 An end-to-end data engineering project that transforms Brazilian e-commerce transaction data into analytical datasets using Python, MySQL, and FastAPI.
 
-## Project Architecture
-
-```mermaid
-flowchart TD
-    A["Olist CSV Dataset"] --> B["Python ETL Pipeline"]
-    B --> C["Data Cleaning & Transformation"]
-    C --> D["Data Quality Validation"]
-    D --> E[("MySQL Database")]
-    E --> F["FastAPI REST API"]
-    F --> G["Seller Performance Analytics"]
-    F --> H["Monthly KPIs"]
-    F --> I["Campaign Performance"]
-
 ## 1. Project Overview
 
 This project implements an end-to-end data engineering pipeline for a Brazilian e-commerce marketplace using the Olist dataset.
@@ -38,37 +25,22 @@ The project covers data extraction, transformation, business-rule implementation
 | Requests | External API integration |
 | Pytest | Unit testing |
 
+
 ## 3. Project Architecture
 
-```text
-Olist CSV Datasets
-        |
-        v
-   Data Extraction
-        |
-        v
-   Raw Data Persistence
-        |
-        v
- External API Integration
-        |
-        v
- Business Rule Processing
-        |
-        v
- Data Transformation
-        |
-        v
- Dimension and Fact Loading
-        |
-        v
-   MySQL Database
-        |
-        v
-     FastAPI
-        |
-        v
- Analytical Endpoints
+The following diagram illustrates the end-to-end data pipeline.
+
+```mermaid
+flowchart TD
+    A["Olist CSV Datasets"] --> B["Data Extraction"]
+    B --> C["Raw Data Persistence"]
+    C --> D["External API Integration"]
+    D --> E["Business Rule Processing"]
+    E --> F["Data Transformation"]
+    F --> G["Dimension and Fact Loading"]
+    G --> H[("MySQL Database")]
+    H --> I["FastAPI REST API"]
+    I --> J["Analytical Endpoints"]
 ```
 
 ## 4. Project Structure
