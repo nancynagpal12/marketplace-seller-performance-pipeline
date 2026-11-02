@@ -371,3 +371,22 @@ The pipeline successfully loaded data into MySQL. The following fact tables were
 | fact_order_review | 99,542 |
 | fact_seller_monthly | 16,068 |
 | fact_seller_order_delivery | 97,810 |
+
+## Data Quality Report
+
+The pipeline includes data quality validation rules to identify inconsistencies and missing values in marketplace data.
+
+The report captures issue IDs, validation rule IDs, affected entities, issue types, and detailed explanations.
+
+![Data Quality Report](screenshots/data_quality_report.png)
+
+**Validation summary:**
+
+| Rule ID | Issues detected |
+|---|---:|
+| R13 | 3 |
+| R16 | 549 |
+| R3 | 8 |
+| R5 | 247 |
+| R9 | 60 |
+| **Total** | **867** |
