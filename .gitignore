@@ -1,0 +1,12 @@
+# Environment and secrets
+.env
+.venv/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Large source datasets
+data/input/*.csv
+data/raw/*.csv

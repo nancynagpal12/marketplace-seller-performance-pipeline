@@ -1,0 +1,64 @@
+issue_id,rule_id,entity_type,entity_id,issue_type,details,detected_at,run_id
+R3-0001,R3,order,2d1e2d5bf4dc7227b3bfebb81328c15f,missing_delivery_timestamp,Order is marked delivered but the customer delivery timestamp is missing.,2026-10-30T18:10:33.717833+00:00,marketplace-pipeline-run-001
+R3-0002,R3,order,f5dd62b788049ad9fc0526e3ad11a097,missing_delivery_timestamp,Order is marked delivered but the customer delivery timestamp is missing.,2026-10-30T18:10:33.717833+00:00,marketplace-pipeline-run-001
+R3-0003,R3,order,2ebdfc4f15f23b91474edf87475f108e,missing_delivery_timestamp,Order is marked delivered but the customer delivery timestamp is missing.,2026-10-30T18:10:33.717833+00:00,marketplace-pipeline-run-001
+R3-0004,R3,order,e69f75a717d64fc5ecdfae42b2e8e086,missing_delivery_timestamp,Order is marked delivered but the customer delivery timestamp is missing.,2026-10-30T18:10:33.717833+00:00,marketplace-pipeline-run-001
+R3-0005,R3,order,0d3268bad9b086af767785e3f0fc0133,missing_delivery_timestamp,Order is marked delivered but the customer delivery timestamp is missing.,2026-10-30T18:10:33.717833+00:00,marketplace-pipeline-run-001
+R3-0006,R3,order,2d858f451373b04fb5c984a1cc2defaf,missing_delivery_timestamp,Order is marked delivered but the customer delivery timestamp is missing.,2026-10-30T18:10:33.717833+00:00,marketplace-pipeline-run-001
+R3-0007,R3,order,ab7c89dc1bf4a1ead9d6ec1ec8968a84,missing_delivery_timestamp,Order is marked delivered but the customer delivery timestamp is missing.,2026-10-30T18:10:33.717833+00:00,marketplace-pipeline-run-001
+R3-0008,R3,order,20edc82cf5400ce95e1afacc25798b31,missing_delivery_timestamp,Order is marked delivered but the customer delivery timestamp is missing.,2026-10-30T18:10:33.717833+00:00,marketplace-pipeline-run-001
+R9-0001,R9,order,58d4c4747ee059eeeb865b349b41f53a,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0002,R9,order,4df92d82d79c3b52c7138679fa9b07fc,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0003,R9,order,6e57e23ecac1ae881286657694444267,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0004,R9,order,f222c56f035b47dfa1e069a88235d730,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0005,R9,order,e04abd8149ef81b95221e88f6ed9ab6a,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0006,R9,order,cf72398d0690f841271b695bbfda82d2,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0007,R9,order,6df6c9c9af6ef75b4f06f8a7b9f47e9c,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0008,R9,order,1fab4ac9d85079b3da72a11475ae1685,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0009,R9,order,fa962e76e50f3469ae2abfa54e6d5be0,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0010,R9,order,8a9adc69528e1001fc68dd0aaebbb54a,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0011,R9,order,0467205a89711e4ec8e70ef2277e3287,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0012,R9,order,7013bcfc1c97fe719a7b5e05e61c12db,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0013,R9,order,5cf925b116421afa85ee25e99b4c34fb,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0014,R9,order,12a95a3c06dbaec84bcfb0e2da5d228a,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0015,R9,order,6d1832bd42dccbd91d1ce32da7f54492,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0016,R9,order,a727355acb88d9b3e6e41fb2e3888a0e,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0017,R9,order,6b80bb20190715d71c43efff617bd659,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0018,R9,order,c1d4211b3dae76144deccd6c74144a88,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0019,R9,order,c3b8c17ee15e0e798c2e178b7d4c7f42,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0020,R9,order,0e1501cd30758f584d1fa67cc6f9493a,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0021,R9,order,bc4854efd86d9f42140c951c595d20c1,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0022,R9,order,f5234dc943e266dc8922b4870dc9d491,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0023,R9,order,d69e5d356402adc8cf17e08b5033acfb,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0024,R9,order,d77031d6a3c8a52f019764e68f211c69,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0025,R9,order,66e1b657a71397245290f39ffe24031e,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0026,R9,order,8554cb37f7158cb0b082a841d24a4589,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0027,R9,order,5e981569f5835c96e4b288363b3b8f63,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0028,R9,order,0184d4ddb259e1a4cfc2871888cf97b8,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0029,R9,order,7002a78c79c519ac54022d4f8a65e6e8,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0030,R9,order,e73fe43cdcd166f7f0c6e3c2bf11a917,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0031,R9,order,394d17c2b71a726e205caaeee3d2aa3d,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0032,R9,order,6dcf0aeb8b1eb4021c26e1d0e9394979,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0033,R9,order,2eecb0d85f281280f79fa00f9cec1a95,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0034,R9,order,51eb2eebd5d76a24625b31c33dd41449,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0035,R9,order,59c51bdf0c3270d962625e5ebbe22fb1,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0036,R9,order,be7d02ed4f9ec9a43ac0f6adade17ade,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0037,R9,order,4d5e865e4b64c8b33f8a81fd14731344,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0038,R9,order,f6f0b2497c5a4ca89670186757ab2684,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0039,R9,order,88083e8f64d95b932164187484d90212,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0040,R9,order,70f357cca87c1162357bf3c0a993cbe5,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0041,R9,order,97823d6731e59cd6b4f9d3ea113a976e,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0042,R9,order,3c0b8706b065f9919d0505d3b3343881,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0043,R9,order,6d1f16f4ed292206fbeedf3b44e0ceb3,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0044,R9,order,a49dc0169f9bb6d3ac9829bdebd12299,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0045,R9,order,6fa0c125ee7d870f6602c97e33d87bc5,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0046,R9,order,2babbb4b15e6d2dfe95e2de765c97bce,missing_approval_date,Approval timestamp is missing.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0047,R9,order,40de47dfa620d667117e4a6067b6e1ec,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0048,R9,order,d836abb4444d8594455e9766104e958c,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0049,R9,order,112b993827414a482ef6534e251fad3a,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0050,R9,order,bc1b85147b5edbb7cbefcf5c1bd5ded9,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0051,R9,order,4387477eec4b3c89b39f3f454940d059,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+R9-0052,R9,order,9c3186381b733d4304e2e416afc6bbc1,delivery_before_approval,Customer delivery date is earlier than approval date.,2026-10-30T18:09:44.782049+00:00,marketplace-pipeline-run-001
+INTERNAL-0001,INTERNAL,source_record,commission_rates.csv:row_8,internal_data_cleaning,Reason: Tier capitalization or whitespace normalized; original_value='gold'; corrected_value='Gold',2026-10-30T18:10:33.720889+00:00,marketplace-pipeline-run-001
+INTERNAL-0002,INTERNAL,source_record,category_commission_overrides.csv:row_4,internal_data_cleaning,Reason: Category name whitespace or capitalization normalized; original_value='  Telephony '; corrected_value='telephony',2026-10-30T18:10:33.720889+00:00,marketplace-pipeline-run-001
+INTERNAL-0003,INTERNAL,source_record,category_commission_overrides.csv:row_6,internal_data_cleaning,Reason: Rejected: effective_from is after effective_to; original_value='2018-05-01 to 2018-04-30'; corrected_value=None,2026-10-30T18:10:33.720889+00:00,marketplace-pipeline-run-001
