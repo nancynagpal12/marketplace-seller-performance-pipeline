@@ -357,3 +357,17 @@ The project exposes seven read-only REST API endpoints for marketplace seller pe
 The interactive API documentation is available through FastAPI Swagger UI.
 
 ![Marketplace Seller Performance API Documentation](screenshots/api_docs.png)
+
+## Database Results
+
+The pipeline successfully loaded data into MySQL. The following fact tables were verified after execution.
+
+![Database Fact Table Row Counts](screenshots/database_row_counts.png)
+
+| Fact Table | Records |
+|---|---:|
+| fact_order | 98,207 |
+| fact_order_item | 112,101 |
+| fact_order_review | 99,542 |
+| fact_seller_monthly | 16,068 |
+| fact_seller_order_delivery | 97,810 |
